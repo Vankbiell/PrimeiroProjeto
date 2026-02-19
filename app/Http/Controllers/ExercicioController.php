@@ -21,4 +21,5 @@ class ExercicioController extends Controller {
         $valor2 = $resquest->input('valor2');
         $sub = $valor2 - $valor2;
         return view('exercicio2',['sub'=> $sub]);
+    }
 }
