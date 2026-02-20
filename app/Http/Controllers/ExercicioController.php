@@ -23,5 +23,14 @@ class ExercicioController extends Controller
         $sub = $valor1 - $valor2;
         return view('exercicio2',['sub'=> $sub]);
     }
+    public function exibirFormulario3(){
+        return view('exercicio3');
+    }
+    public function calcularMultiplicacao(Request $request){
+        $valor1 = $request -> input('valor1');
+        $valor2 = $request -> input('valor2');
+        $mul = $valor1 * $valor2;
+        return view('exercicio3',['mul'=> $mul]);
+    }
 
 }
