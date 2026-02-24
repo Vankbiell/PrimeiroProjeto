@@ -18,7 +18,7 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 @isset($media)
-<p class="text-success">O valor da média das notas é: {{round($media, 2)}}</p>
+<p class="text-success">O valor da média das notas é: {{round($media, 2)}}</p> <!--Utilizei a função round para deixar a variavél somente com duas casas após a virgula-->
 @endisset
 @isset($erro)
 <p class="text-danger"> {{$erro}}</p>
