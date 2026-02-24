@@ -1,7 +1,7 @@
 @extends('layout')
 @section('conteudo')
-<h1>Exercício - Multiplicação</h1>
-<form method="post" action="/resposta3">
+<h1>Exercício - Divisão</h1>
+<form method="post" action="/resposta4">
     @CSRF
 <div class="mb-3">
         <label for="valor1" class="form-label">informe o primeiro valor</label>
@@ -13,7 +13,10 @@
 </div>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
-@isset($mul)
-<p class="text-sucess">O valor da Multiplicação é: {{$mul}}
-    @endisset
+@isset($div)
+<p class="text-sucess">O valor da Divisão é: {{$div}}
+@endisset
+@isset($e)
+<p class="text-sucess">O valor da Divisão é: {{$e}}
+@endisset
 @endsection
