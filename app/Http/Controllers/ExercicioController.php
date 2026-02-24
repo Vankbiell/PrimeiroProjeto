@@ -14,6 +14,7 @@ class ExercicioController extends Controller
         $soma = $valor1 + $valor2;
         return view('exercicio',['soma'=> $soma]);
     }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     public function exibirFormulario2(){
         return view('exercicio2');
     }
@@ -23,6 +24,7 @@ class ExercicioController extends Controller
         $sub = $valor1 - $valor2;
         return view('exercicio2',['sub'=> $sub]);
     }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     public function exibirFormulario3(){
         return view('exercicio3');
     }
@@ -32,7 +34,7 @@ class ExercicioController extends Controller
         $mul = $valor1 * $valor2;
         return view('exercicio3',['mul'=> $mul]);
     }
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     public function exibirFormulario4(){
         return view('exercicio4');
     }
@@ -42,7 +44,6 @@ class ExercicioController extends Controller
     $valor1 = $request->input('valor1');
     $valor2 = $request->input('valor2');
     
-    // Verifica APENAS se o segundo valor é zero (divisor)
     if($valor2 == 0) {
         $erro = 'Não é possível dividir por zero!';
         return view('exercicio4', ['erro' => $erro]);
@@ -51,7 +52,7 @@ class ExercicioController extends Controller
         return view('exercicio4', ['div' => $div]);
     }
     }      
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     public function exibirFormulario5(){
         return view('exercicio5');
     }
