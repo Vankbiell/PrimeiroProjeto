@@ -14,6 +14,6 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 @isset($sub)
-<p class="text-sucess">O valor da sub é:{{$sub}}
+<p class="text-success">O valor da sub é:{{$sub}}
     @endisset
 @endsection

@@ -14,6 +14,6 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 @isset($soma)
-<p class="text-sucess">O valor da soma é:{{$soma}}
+<p class="text-success">O valor da soma é:{{$soma}}
     @endisset
 @endsection

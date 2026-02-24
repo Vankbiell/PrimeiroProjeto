@@ -14,9 +14,9 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 @isset($div)
-<p class="text-sucess">O valor da Divisão é: {{$div}}
+<p class="text-success">O valor da Divisão é: {{$div}}</p>
 @endisset
-@isset($e)
-<p class="text-sucess">O valor da Divisão é: {{$e}}
+@isset($erro)
+<p class="text-danger"> {{$erro}}</p>
 @endisset
 @endsection

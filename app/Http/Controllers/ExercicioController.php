@@ -37,16 +37,18 @@ class ExercicioController extends Controller
         return view('exercicio4');
     }
 
-    public function calcularDivisao(Request $request){
-        $valor1 = $request -> input('valor1');
-        $valor2 = $request -> input('valor2');
-        if($valor1 <= 0 || $valor2 <=0){
-            $e = false
-            return view('exercicio4',['e'=> $e]);
-        } else{
-            $div = $valor1 / $valor2;
-            return view('exercicio4',['div'=> $div]);
-        }
+    public function calcularDivisao(Request $request)
+    {
+    $valor1 = $request->input('valor1');
+    $valor2 = $request->input('valor2');
+    
+    // Verifica APENAS se o segundo valor é zero (divisor)
+    if($valor2 == 0) {
+        $erro = 'Não é possível dividir por zero!';
+        return view('exercicio4', ['erro' => $erro]);
+    } else {
+        $div = $valor1 / $valor2;
+        return view('exercicio4', ['div' => $div]);
     }
-
+    }      
 }

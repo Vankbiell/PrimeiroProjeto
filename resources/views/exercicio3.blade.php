@@ -14,6 +14,6 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 @isset($mul)
-<p class="text-sucess">O valor da Multiplicação é: {{$mul}}
+<p class="text-success">O valor da Multiplicação é: {{$mul}}
     @endisset
 @endsection
