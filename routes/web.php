@@ -31,3 +31,8 @@ Route:: post('/resposta4',[ExercicioController::class, 'calcularDivisao']);
 Route:: get ('/exercicio5', [ExercicioController::class, 'exibirFormulario5']);
 //receber os dados do formulario 5
 Route:: post('/resposta5',[ExercicioController::class, 'calcularMedia']);
+
+//rota para abrir o exercicio 6
+Route::get ('/exercicio6',[ExercicioController::class, 'exibirFormulario6']);
+//receber os dados do formulario 6
+Route::post ('/resposta6', [ExercicioController::class, 'converterCelcius']);

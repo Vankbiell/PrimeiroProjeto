@@ -69,4 +69,15 @@ class ExercicioController extends Controller
             return view('exercicio5', ['media' => $media]);
         }
     }
+    
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public function exibirFormulario6(){
+        return view('exercicio6');
+    }
+
+    public function converterCelcius(Request $request){
+        $celcius = $request->input('celcius');
+        $f = ($celcius * 1.8) + 32;
+        return view('exercicio6', ['f' => $f ]);
+    }
 }
