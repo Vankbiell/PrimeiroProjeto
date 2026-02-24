@@ -26,7 +26,7 @@
 <li><a class="dropdown-item" href='exercicio2'>Exercício 2 - Subtração</a></li>
 <li><a class="dropdown-item" href='exercicio3'>Exercício 3 - Multiplicação</a></li>
 <li><a class="dropdown-item" href='exercicio4'>Exercício 4 - Divisão</a></li>
-<li><a class="dropdown-item" href='exercicio5'>Exercício 5</a></li>
+<li><a class="dropdown-item" href='exercicio5'>Exercício 5 - Média entre 3 notas</a></li>
 <li><a class="dropdown-item" href='exercicio6'>Exercício 6</a></li>
   </ul>
 </li>

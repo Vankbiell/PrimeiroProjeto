@@ -51,4 +51,21 @@ class ExercicioController extends Controller
         return view('exercicio4', ['div' => $div]);
     }
     }      
+
+    public function exibirFormulario5(){
+        return view('exercicio5');
+    }
+
+    public function calcularMedia(Request $request){
+        $nota1 = $request->input('nota1');
+        $nota2 = $request->input('nota2');
+        $nota3 = $request->input('nota3');
+        if ($nota1 < 0 || $nota2 < 0 || $nota3 < 0 ){
+            $erro = 'O número não pode ser negativo';
+            return view('exercicio5',['erro' => $erro]);
+        }else{
+            $media = ($nota1 + $nota2 + $nota3) / 3;
+            return view('exercicio5', ['media' => $media]);
+        }
+    }
 }

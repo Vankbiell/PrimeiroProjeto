@@ -22,7 +22,12 @@ Route:: get ('/exercicio3', [ExercicioController::class, 'exibirFormulario3']);
 //receber os dados do formulario 3
 Route:: post('/resposta3',[ExercicioController::class, 'calcularMultiplicacao']);
 
-//rota para abrir o exercicio 3
+//rota para abrir o exercicio 4
 Route:: get ('/exercicio4', [ExercicioController::class, 'exibirFormulario4']);
-//receber os dados do formulario 3
+//receber os dados do formulario 4
 Route:: post('/resposta4',[ExercicioController::class, 'calcularDivisao']);
+
+//rota para abrir o exercicio 5
+Route:: get ('/exercicio5', [ExercicioController::class, 'exibirFormulario5']);
+//receber os dados do formulario 5
+Route:: post('/resposta5',[ExercicioController::class, 'calcularMedia']);
