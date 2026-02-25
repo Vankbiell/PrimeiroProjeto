@@ -29,8 +29,8 @@
     <li><a class="dropdown-item" href='exercicio5'>Exercício 5 - Média entre 3 notas</a></li>
     <li><a class="dropdown-item" href='exercicio6'>Exercício 6 - Conversão de Celcius para Fahrenheit</a></li>
     <li><a class="dropdown-item" href='exercicio7'>Exercício 7 - Conversão de Fahrenheit para Celcius</a></li>
-    <li><a class="dropdown-item" href='exercicio8'>Exercício 8 -</a></li>
-    <li><a class="dropdown-item" href='exercicio9'>Exercício 9 -</a></li>
+    <li><a class="dropdown-item" href='exercicio8'>Exercício 8 - Área de um Retângulo</a></li>
+    <li><a class="dropdown-item" href='exercicio9'>Exercício 9 - Área de um Círculo</a></li>
     <li><a class="dropdown-item" href='exercicio10'>Exercício 10 -</a></li>
     <li><a class="dropdown-item" href='exercicio11'>Exercício 11 -</a></li>
     <li><a class="dropdown-item" href='exercicio12'>Exercício 12 -</a></li>

@@ -92,9 +92,31 @@ class ExercicioController extends Controller
     }
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
     public function exibirFormulario8(){
-        return view('exercicio7');
+        return view('exercicio8');
     }
     public function calcularAreaR(Request $request){
-        
+        $altura = $request->input('altura');
+        $largura = $request->input('largura');
+        if ($altura < 1 || $largura < 1){
+            $erro = 'A altura ou a largura é um número negativo ou 0!';
+            return view('exercicio8', ['erro' => $erro]);
+        }else{
+            $area = $altura * $largura;
+            return view('exercicio8', ['area' => $area]);
+        }
+    }
+
+    public function exibirFormulario9(){
+        return view('exercicio9');
+    }
+    public function calcularAreaC(Request $request){
+        $raio = $request->input('raio');
+        if($raio < 0){
+            $erro = 'O valor do raio é inválido, tente um número positivo maior que 0!';
+            return view('exercicio9',['erro' => $erro]);
+        }else{
+            $area = M_PI * pow($raio, 2);//pow é uma função de PHP para elevar os números, já M_PI é uma função com o valor de PI guardado.
+            return view ('exercicio9',['area' => $area]);
+        }
     }
 }
