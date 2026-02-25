@@ -40,4 +40,9 @@ Route::post ('/resposta6', [ExercicioController::class, 'converterCelcius']);
 //rota para abrir o exercicio 7
 Route::get ('/exercicio7',[ExercicioController::class, 'exibirFormulario7']);
 //receber os dados do formulario 7
-Route::post ('/resposta7', [ExercicioController::class, 'converterCelcius']);
+Route::post ('/resposta7', [ExercicioController::class, 'converterFahrenheit']);
+
+//rota para abrir o exercicio 8
+Route::get ('/exercicio8',[ExercicioController::class, 'exibirFormulario8']);
+//receber os dados do formulario 8
+Route::post ('/resposta8', [ExercicioController::class, 'calcularAreaR']);

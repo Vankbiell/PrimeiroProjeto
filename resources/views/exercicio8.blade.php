@@ -1,7 +1,7 @@
 @extends('layout')
 @section('conteudo')
 <h1>Exercício - Conversão de Fahrenheit para Celcius</h1>
-<form method="post" action="/resposta7">
+<form method="post" action="/resposta8">
     @CSRF
 <div class="mb-3">
         <label for="fahrenheit" class="form-label">Informe o Fahrenheit: </label>
@@ -10,6 +10,6 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 @isset($celcius)
-<p class="text-success">O valor de Fahrenheit convertido para Celcius: {{round($celcius, 2)}} C°</p> <!--Utilizei a função round para deixar a variavél somente com duas casas após a virgula-->
+<p class="text-success">O valor de Fahrenheit convertido para Celcius: {{round($celcius, 2)}} C°</p> 
 @endisset
 @endsection

@@ -88,6 +88,13 @@ class ExercicioController extends Controller
     public function converterFahrenheit(Request $request){
         $fahrenheit = $request->input('fahrenheit');
         $celcius = 5 / 9 * ($fahrenheit - 32);
-        return view ('exercicio7',['fahrenheit', $fahrenheit]);
+        return view ('exercicio7',['celcius' => $celcius]);
+    }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+    public function exibirFormulario8(){
+        return view('exercicio7');
+    }
+    public function calcularAreaR(Request $request){
+        
     }
 }

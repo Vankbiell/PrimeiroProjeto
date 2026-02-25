@@ -23,25 +23,25 @@
   </a>
   <ul class="dropdown-menu" aria-labelledby="dropdown1">
     <li><a class="dropdown-item" href='exercicio'>Exercício 1 - Adição</a></li>
-<li><a class="dropdown-item" href='exercicio2'>Exercício 2 - Subtração</a></li>
-<li><a class="dropdown-item" href='exercicio3'>Exercício 3 - Multiplicação</a></li>
-<li><a class="dropdown-item" href='exercicio4'>Exercício 4 - Divisão</a></li>
-<li><a class="dropdown-item" href='exercicio5'>Exercício 5 - Média entre 3 notas</a></li>
-<li><a class="dropdown-item" href='exercicio6'>Exercício 6 - Conversão de Celcius para Fahrenheit</a></li>
-<li><a class="dropdown-item" href='exercicio7'></a>Exercício 7 - </li>
-<li><a class="dropdown-item" href='exercicio8'></a>Exercício 8 -</li>
-<li><a class="dropdown-item" href='exercicio9'></a>Exercício 9 -</li>
-<li><a class="dropdown-item" href='exercicio10'></a>Exercício 10 -</li>
-<li><a class="dropdown-item" href='exercicio11'></a>Exercício 11 -</li>
-<li><a class="dropdown-item" href='exercicio12'></a>Exercício 12 -</li>
-<li><a class="dropdown-item" href='exercicio13'></a>Exercício 13 -</li>
-<li><a class="dropdown-item" href='exercicio14'></a>Exercício 14 -</li>
-<li><a class="dropdown-item" href='exercicio15'></a>Exercício 15 -</li>
-<li><a class="dropdown-item" href='exercicio16'></a>Exercício 16 -</li>
-<li><a class="dropdown-item" href='exercicio17'></a>Exercício 17 -</li>
-<li><a class="dropdown-item" href='exercicio18'></a>Exercício 18 -</li>
-<li><a class="dropdown-item" href='exercicio19'></a>Exercício 19 -</li>
-<li><a class="dropdown-item" href='exercicio20'></a>Exercício 20 -</li>
+    <li><a class="dropdown-item" href='exercicio2'>Exercício 2 - Subtração</a></li>
+    <li><a class="dropdown-item" href='exercicio3'>Exercício 3 - Multiplicação</a></li>
+    <li><a class="dropdown-item" href='exercicio4'>Exercício 4 - Divisão</a></li>
+    <li><a class="dropdown-item" href='exercicio5'>Exercício 5 - Média entre 3 notas</a></li>
+    <li><a class="dropdown-item" href='exercicio6'>Exercício 6 - Conversão de Celcius para Fahrenheit</a></li>
+    <li><a class="dropdown-item" href='exercicio7'>Exercício 7 - Conversão de Fahrenheit para Celcius</a></li>
+    <li><a class="dropdown-item" href='exercicio8'>Exercício 8 -</a></li>
+    <li><a class="dropdown-item" href='exercicio9'>Exercício 9 -</a></li>
+    <li><a class="dropdown-item" href='exercicio10'>Exercício 10 -</a></li>
+    <li><a class="dropdown-item" href='exercicio11'>Exercício 11 -</a></li>
+    <li><a class="dropdown-item" href='exercicio12'>Exercício 12 -</a></li>
+    <li><a class="dropdown-item" href='exercicio13'>Exercício 13 -</a></li>
+    <li><a class="dropdown-item" href='exercicio14'>Exercício 14 -</a></li>
+    <li><a class="dropdown-item" href='exercicio15'>Exercício 15 -</a></li>
+    <li><a class="dropdown-item" href='exercicio16'>Exercício 16 -</a></li>
+    <li><a class="dropdown-item" href='exercicio17'>Exercício 17 -</a></li>
+    <li><a class="dropdown-item" href='exercicio18'>Exercício 18 -</a></li>
+    <li><a class="dropdown-item" href='exercicio19'>Exercício 19 -</a></li>
+    <li><a class="dropdown-item" href='exercicio20'>Exercício 20 -</a></li>
   </ul>
 </li>
       </ul>
