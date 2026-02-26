@@ -14,6 +14,6 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 @isset($perimetro)
-<p class="text-success">A Área do Perímetro é: {{$perimetro}}</p>
+<p class="text-success">O Perímetro do Retângulo é: {{$perimetro}}</p>
 @endisset
 @endsection
