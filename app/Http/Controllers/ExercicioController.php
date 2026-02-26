@@ -142,4 +142,10 @@ class ExercicioController extends Controller
     public function exibirFormulario12(){
         return view('exercicio12');
     }
+    public function calcularPotencia(Request $request){
+        $base = $request->input('base');
+        $expoente = $request->input('expoente');
+        $potencia = $base ** $expoente;
+        return view('exercicio12', ['potencia' => $potencia]);
+    }
 }
