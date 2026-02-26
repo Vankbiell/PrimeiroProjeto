@@ -31,7 +31,7 @@
     <li><a class="dropdown-item" href='exercicio7'>Exercício 7 - Conversão de Fahrenheit para Celcius</a></li>
     <li><a class="dropdown-item" href='exercicio8'>Exercício 8 - Área de um Retângulo</a></li>
     <li><a class="dropdown-item" href='exercicio9'>Exercício 9 - Área de um Círculo</a></li>
-    <li><a class="dropdown-item" href='exercicio10'>Exercício 10 -</a></li>
+    <li><a class="dropdown-item" href='exercicio10'>Exercício 10 - Perímetro de um Retângulo</a></li>
     <li><a class="dropdown-item" href='exercicio11'>Exercício 11 -</a></li>
     <li><a class="dropdown-item" href='exercicio12'>Exercício 12 -</a></li>
     <li><a class="dropdown-item" href='exercicio13'>Exercício 13 -</a></li>

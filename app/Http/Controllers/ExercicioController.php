@@ -105,7 +105,7 @@ class ExercicioController extends Controller
             return view('exercicio8', ['area' => $area]);
         }
     }
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     public function exibirFormulario9(){
         return view('exercicio9');
     }
@@ -118,5 +118,15 @@ class ExercicioController extends Controller
             $area = M_PI * pow($raio, 2);//pow é uma função de PHP para elevar os números, já M_PI é uma função com o valor de PI guardado.
             return view ('exercicio9',['area' => $area]);
         }
+    }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public function exibirFormulario10(){
+        return view ('exercicio10');
+    }
+    public function calcularPerimetroR(Request $request){
+        $altura = $request->input('altura');
+        $largura = $request->input('largura');
+        $perimetro = 2 * ($altura + $largura);
+        return view ('exercicio10', ['perimetro' => $perimetro]);
     }
 }

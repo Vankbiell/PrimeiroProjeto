@@ -51,3 +51,8 @@ Route::post ('/resposta8', [ExercicioController::class, 'calcularAreaR']);
 Route::get ('/exercicio9', [ExercicioController::class, 'exibirFormulario9']);
 //receber os dados do formulario 9
 Route::post ('/resposta9', [ExercicioController::class, 'calcularAreaC']);
+
+//rota para abrir o exercicio 10
+Route::get ('/exercicio10', [ExercicioController::class, 'exibirFormulario10']);
+//receber os dados do formulario 10
+Route::post ('/resposta10', [ExercicioController::class, 'calcularPerimetroR']);
