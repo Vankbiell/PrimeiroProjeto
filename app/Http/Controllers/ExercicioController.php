@@ -129,4 +129,17 @@ class ExercicioController extends Controller
         $perimetro = 2 * ($altura + $largura);
         return view ('exercicio10', ['perimetro' => $perimetro]);
     }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public function exibirFormulario11(){
+        return view ('exercicio11');
+    }
+    public function calcularPerimetroC(Request $request){
+        $raio = $request->input('raio');
+        $perimetro = 2 * M_PI * $raio;
+        return view ('exercicio11', ['perimetro' => $perimetro]);
+    }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public function exibirFormulario12(){
+        return view('exercicio12');
+    }
 }
