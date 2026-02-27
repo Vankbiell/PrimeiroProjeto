@@ -21,10 +21,12 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'role'
+        'role',
     ];
-    public function pedidos(){
-        return $this -> hasMany(Pedido::class,'user_id');
+
+    public function pedidos()
+    {
+        return $this->hasMany(Pedido::class, 'user_id');
     }
 
     /**
