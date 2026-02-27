@@ -8,7 +8,7 @@ Route::get('/', function () {
 });
 
 //rota para abrir o exercicio 1
-Route:: get ('/exercicio',[ExercicioController::class, 'exibirFormulario']);
+Route::get('/exercicio',[ExercicioController::class, 'exibirFormulario']);
 //receber os dados do formulario 1
 Route:: post ('/resposta',[ExercicioController::class, 'calcularSoma']);
 
