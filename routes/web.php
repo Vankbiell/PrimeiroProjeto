@@ -62,7 +62,12 @@ Route::get ('/exercicio11', [ExercicioController::class, 'exibirFormulario11']);
 //receber os dados do formulario 11
 Route::post ('/resposta11', [ExercicioController::class, 'calcularPerimetroC']);
 
-//rota para abrir o exercicio 11
+//rota para abrir o exercicio 12
 Route::get ('/exercicio12',[ExercicioController::class, 'exibirFormulario12']);
-//receber os dados do formulario 11
+//receber os dados do formulario 12
 Route::post ('/resposta12',[ExercicioController::class , 'calcularPotencia']);
+
+//rota para abrir o exercicio 13
+Route::get ('/exercicio13',[ExercicioController::class, 'exibirFormulario13']);
+//receber os dados do formulario 13
+Route::post ('/resposta13',[ExercicioController::class , 'converterCentimetros']);
