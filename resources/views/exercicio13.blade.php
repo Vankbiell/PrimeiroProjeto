@@ -10,6 +10,6 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 @isset($c)
-<p class="text-success">A conversão de Metros para centímetros é:  {{$c}} </p> <!--Utilizei a função round para deixar a variavél somente com duas casas após a virgula-->
+<p class="text-success">A conversão de Metros para centímetros é:  {{$c}} cm </p> <!--Utilizei a função round para deixar a variavél somente com duas casas após a virgula-->
 @endisset
 @endsection

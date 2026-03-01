@@ -148,4 +148,23 @@ class ExercicioController extends Controller
         $potencia = $base ** $expoente;
         return view('exercicio12', ['potencia' => $potencia]);
     }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public function exibirFormulario13(){
+        return view('exercicio13');
+    }
+    public function converterCentimetros(Request $request){
+        $metro = $request->input('m');
+        $c = $metro * 100;
+        return view('exercicio13', ['c' => $c]);
+    }
+
+
+    public function exibirFormulario14(){
+        return view('exercicio14');
+    }
+    public function converterParaMilhas(Request $request){
+        $km = $request->input('km');
+        $milhas = $km * 0.621371;
+        return view('exercicio14', ['milhas' => $milhas]);
+    }
 }
