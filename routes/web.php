@@ -81,3 +81,13 @@ Route::post ('/resposta14',[ExercicioController::class , 'converterParaMilhas'])
 Route::get ('/exercicio15',[ExercicioController::class, 'exibirFormulario15']);
 //receber os dados do formulario 15
 Route::post ('/resposta15',[ExercicioController::class , 'calcularIMC']);
+
+//rota para abrir o exercicio 16
+Route::get ('/exercicio16',[ExercicioController::class, 'exibirFormulario16']);
+//receber os dados do formulario 16
+Route::post ('/resposta16',[ExercicioController::class , 'calcularDesconto']);
+
+//rota para abrir o exercicio 17
+Route::get('/exercicio17',[ExercicioController::class,'exibirFormulario17']);
+//receber os dados do formulario 17
+Route::post('/resposta17', [ExercicioController::class, 'calcularJurosSimples']);

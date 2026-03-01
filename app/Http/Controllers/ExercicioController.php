@@ -176,5 +176,40 @@ class ExercicioController extends Controller
         $imc = $peso / ($altura * $altura);
         return view ('exercicio15', ['imc' => number_format($imc, 2)]);
     }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    public function exibirFormulario16(){
+        return view('exercicio16');
+    }
+    public function calcularDesconto(Request $request){
+        $valor = $request->input('valor');
+        $percentual = $request->input('percentual');
+        $novoValor = $valor - ($valor * ($percentual / 100));
+        return view('exercicio16', ['novoValor' => $novoValor]);
+    }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+     public function exibirFormulario17(){
+        return view('exercicio17');
+    }
+
+    public function calcularJurosSimples(Request $request){
+        $capital = $request->input('capital');
+        $taxa = $request->input('taxa');
+        $periodo = $request->input('periodo');
+
+        $taxaDecimal = $taxa / 100;
+        $jurosSimples = $capital * $taxaDecimal * $periodo;
+        $montante = $capital + $jurosSimples;
+
+        return view('exercicio17', [
+            'jurosSimples' => $jurosSimples,
+            'montante' => $montante
+        ]);
+    }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 }
