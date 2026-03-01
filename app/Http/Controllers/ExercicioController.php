@@ -157,8 +157,7 @@ class ExercicioController extends Controller
         $c = $metro * 100;
         return view('exercicio13', ['c' => $c]);
     }
-
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     public function exibirFormulario14(){
         return view('exercicio14');
     }
@@ -167,4 +166,15 @@ class ExercicioController extends Controller
         $milhas = $km * 0.621371;
         return view('exercicio14', ['milhas' => $milhas]);
     }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public function exibirFormulario15(){
+        return view('exercicio15');
+    }
+    public function calcularIMC(Request $request){
+        $peso = $request->input('peso');
+        $altura = $request->input('altura');
+        $imc = $peso / ($altura * $altura);
+        return view ('exercicio15', ['imc' => number_format($imc, 2)]);
+    }
+
 }

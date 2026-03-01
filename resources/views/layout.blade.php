@@ -36,7 +36,7 @@
     <li><a class="dropdown-item" href='exercicio12'>Exercício 12 - Potencialização</a></li>
     <li><a class="dropdown-item" href='exercicio13'>Exercício 13 - Conversão de Metros para Centímetros</a></li>
     <li><a class="dropdown-item" href='exercicio14'>Exercício 14 - Conversão de Quilometros para Milhas</a></li>
-    <li><a class="dropdown-item" href='exercicio15'>Exercício 15 -</a></li>
+    <li><a class="dropdown-item" href='exercicio15'>Exercício 15 - IMC</a></li>
     <li><a class="dropdown-item" href='exercicio16'>Exercício 16 -</a></li>
     <li><a class="dropdown-item" href='exercicio17'>Exercício 17 -</a></li>
     <li><a class="dropdown-item" href='exercicio18'>Exercício 18 -</a></li>

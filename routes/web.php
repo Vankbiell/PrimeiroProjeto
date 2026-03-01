@@ -76,3 +76,8 @@ Route::post ('/resposta13',[ExercicioController::class , 'converterCentimetros']
 Route::get ('/exercicio14',[ExercicioController::class, 'exibirFormulario14']);
 //receber os dados do formulario 14
 Route::post ('/resposta14',[ExercicioController::class , 'converterParaMilhas']);
+
+//rota para abrir o exercicio 15
+Route::get ('/exercicio15',[ExercicioController::class, 'exibirFormulario15']);
+//receber os dados do formulario 15
+Route::post ('/resposta15',[ExercicioController::class , 'calcularIMC']);
