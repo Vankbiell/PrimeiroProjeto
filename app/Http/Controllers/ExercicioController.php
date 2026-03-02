@@ -228,8 +228,13 @@ class ExercicioController extends Controller
         return view('exercicio19');
     }
 
-    public function convesaoDias(Request $request){
-        $dia = $request->input('dia')
+    public function conversaoDias(Request $request){
+        $dias = $request->input('dias');
+        $total_horas = $dias * 24;
+        $total_minutos = $total_horas * 60;
+        $total_segundos = $total_minutos * 60;
+        $conversao = "Horas: $total_horas hr Minutos: $total_minutos min  Segundos: $total_segundos seg";
+        return view('exercicio19', ['conversao' => $conversao]);
     }
 
 }
