@@ -236,5 +236,17 @@ class ExercicioController extends Controller
         $conversao = "Horas: $total_horas hr Minutos: $total_minutos min  Segundos: $total_segundos seg";
         return view('exercicio19', ['conversao' => $conversao]);
     }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+    public function exibirFormulario20(){
+        return view('exercicio20');
+    }
+
+    public function calcularVelMedia(Request $request){
+        $distancia = $request->input('distancia');
+        $tempo = $request->input('tempo');
+        $velMedia = $distancia / $tempo;
+        $velMedia = round($velMedia, 2);
+        return view('exercicio20',['velMedia' => $velMedia]);
+    }
 }

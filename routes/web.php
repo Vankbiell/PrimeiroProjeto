@@ -105,4 +105,4 @@ Route::post('/resposta19', [ExercicioController::class,'conversaoDias']);
 //rota para abrir o exercicio 20
 Route::get('/exercicio20',[ExercicioController::class,'exibirFormulario20']);
 //receber os dados do formulario 20
-Route::post('/resposta20', [ExercicioController::class, '']);
+Route::post('/resposta20', [ExercicioController::class,'calcularVelMedia']);
