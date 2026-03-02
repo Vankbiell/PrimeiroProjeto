@@ -39,8 +39,8 @@
     <li><a class="dropdown-item" href='exercicio15'>Exercício 15 - IMC</a></li>
     <li><a class="dropdown-item" href='exercicio16'>Exercício 16 - Valor com Desconto</a></li>
     <li><a class="dropdown-item" href='exercicio17'>Exercício 17 - Juros Simples</a></li>
-    <li><a class="dropdown-item" href='exercicio18'>Exercício 18 -</a></li>
-    <li><a class="dropdown-item" href='exercicio19'>Exercício 19 -</a></li>
+    <li><a class="dropdown-item" href='exercicio18'>Exercício 18 - Montante</a></li>
+    <li><a class="dropdown-item" href='exercicio19'>Exercício 19 - Convesão de dias para horas minutos e segundos</a></li>
     <li><a class="dropdown-item" href='exercicio20'>Exercício 20 -</a></li>
   </ul>
 </li>

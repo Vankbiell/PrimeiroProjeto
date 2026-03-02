@@ -91,3 +91,13 @@ Route::post ('/resposta16',[ExercicioController::class , 'calcularDesconto']);
 Route::get('/exercicio17',[ExercicioController::class,'exibirFormulario17']);
 //receber os dados do formulario 17
 Route::post('/resposta17', [ExercicioController::class, 'calcularJurosSimples']);
+
+//rota para abrir o exercicio 18
+Route::get('/exercicio18',[ExercicioController::class,'exibirFormulario18']);
+//receber os dados do formulario 18
+Route::post('/resposta18', [ExercicioController::class, 'calcularMontante']);
+
+//rota para abrir o exercicio 19
+Route::get('/exercicio19',[ExercicioController::class,'exibirFormulario19']);
+//receber os dados do formulario 19
+Route::post('/resposta19', [ExercicioController::class, 'conversaoDias']);

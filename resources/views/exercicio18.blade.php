@@ -1,7 +1,7 @@
 @extends('layout')
 @section('conteudo')
-<h1>Exercício - Juros Simples</h1>
-<form method="post" action="/resposta17">
+<h1>Exercício - Montante</h1>
+<form method="post" action="/resposta18">
     @CSRF
 <div class="mb-3">
         <label for="capital" class="form-label">Informe o capital: </label>
@@ -19,5 +19,8 @@
 </form>
 @isset($jurosSimples)
 <p class="text-success">O valor dos juros é: {{$jurosSimples}}</p> 
+@endisset
+@isset($montante)
+<p class="text-success">O montante é: {{$montante}}</p> 
 @endisset
 @endsection

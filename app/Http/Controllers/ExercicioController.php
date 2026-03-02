@@ -199,17 +199,37 @@ class ExercicioController extends Controller
 
         $taxaDecimal = $taxa / 100;
         $jurosSimples = $capital * $taxaDecimal * $periodo;
-        $montante = $capital + $jurosSimples;
 
         return view('exercicio17', [
+            'jurosSimples' => $jurosSimples
+        ]);
+    }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     public function exibirFormulario18(){
+        return view('exercicio18');
+    }
+
+    public function calcularMontante(Request $request){
+        $capital = $request->input('capital');
+        $taxa = $request->input('taxa');
+        $periodo = $request->input('periodo');
+
+        $taxaDecimal = $taxa / 100;
+        $jurosSimples = $capital * $taxaDecimal * $periodo;
+        $montante = $capital + $jurosSimples;
+
+        return view('exercicio18', [
             'jurosSimples' => $jurosSimples,
             'montante' => $montante
         ]);
     }
-//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+    public function exibirFormulario19(){
+        return view('exercicio19');
+    }
 
-
-
-
+    public function convesaoDias(Request $request){
+        $dia = $request->input('dia')
+    }
 
 }
