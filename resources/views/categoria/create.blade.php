@@ -2,7 +2,7 @@
 
 @section('conteudo')
     <h1>Criar Categoria</h1>
-    <form method="post" action='categorias'>
+    <form method="post" action='/categorias'>
         @CSRF
         <div class="mb-3">
             <label for="nome" class="form-label">Informe o nome</label>
